@@ -9,7 +9,8 @@ data class AISelectedArticle(
     val title: String,
     val summary: String,
     val originalUrl: String,
-    val recommendationReason: String
+    val recommendationReason: String,
+    val imageUrl: String = ""
 )
 
 object AIAgent {
@@ -84,6 +85,7 @@ object AIAgent {
             |标题: ${article.title}
             |来源: ${article.source}
             |链接: ${article.link}
+            |封面图: ${article.imageUrl}
             |摘要: ${article.description}
             """.trimMargin()
         }.joinToString("\n---\n")
@@ -100,6 +102,7 @@ object AIAgent {
             - summary: 50 字以内的中文总结（无论原文是什么语言，都必须用中文总结）
             - originalUrl: 原文链接
             - recommendationReason: 推荐理由（一句话，用中文）
+            - imageUrl: 原文封面图链接（直接使用原始数据中的封面图链接，没有则留空字符串）
 
             只返回 JSON 数组，不要包含任何其他文字、markdown 标记或代码块标记。
         """.trimIndent()
@@ -138,6 +141,7 @@ object AIAgent {
             - summary: 50 字以内的中文总结
             - originalUrl: 原文链接
             - recommendationReason: 推荐理由（一句话，用中文）
+            - imageUrl: 原文封面图链接（直接使用原始数据中的封面图链接，没有则留空字符串）
 
             只返回 JSON 数组，不要包含任何其他文字、markdown 标记或代码块标记。
         """.trimIndent()

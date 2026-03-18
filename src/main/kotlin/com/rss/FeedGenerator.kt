@@ -5,6 +5,7 @@ import com.rometools.rome.io.SyndFeedOutput
 import java.io.File
 import java.io.FileWriter
 import java.util.Date
+import com.rometools.rome.feed.module.DCModuleImpl
 
 object FeedGenerator {
 
@@ -22,9 +23,21 @@ object FeedGenerator {
                 title = article.title
                 link = article.originalUrl
                 publishedDate = Date()
+
+                // 封面图通过 enclosure 传递给阅读器
+                if (article.imageUrl.isNotEmpty()) {
+                    enclosures = listOf(SyndEnclosureImpl().apply {
+                        url = article.imageUrl
+                        type = "image/jpeg"
+                    })
+                }
+
                 description = SyndContentImpl().apply {
                     type = "text/html"
                     value = buildString {
+                        if (article.imageUrl.isNotEmpty()) {
+                            append("<img src=\"${article.imageUrl}\" alt=\"${article.title}\" /><br/>")
+                        }
                         append("<p><strong>摘要：</strong>${article.summary}</p>")
                         append("<p><strong>推荐理由：</strong>${article.recommendationReason}</p>")
                         append("<p><a href=\"${article.originalUrl}\">阅读原文</a></p>")
