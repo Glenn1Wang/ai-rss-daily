@@ -24,7 +24,7 @@ object RSSFetcher {
         .followRedirects(true)
         .build()
 
-    fun fetchAll(urls: List<String>, hoursBack: Long = 24): List<RawArticle> {
+    fun fetchAll(urls: List<String>, hoursBack: Long = 72): List<RawArticle> {
         val cutoff = Instant.now().minus(hoursBack, ChronoUnit.HOURS)
         val articles = mutableListOf<RawArticle>()
 
