@@ -1,0 +1,8 @@
+{
+  "rss_urls": [
+    "https://hnrss.org/best",
+    "https://www.v2ex.com/index.xml",
+    "https://sspai.com/feed"
+  ],
+  "prompt_focus": "重点关注 Android 开发、大模型工程化落地、Kotlin 前沿技术。排除纯粹的商业炒作新闻。"
+}
