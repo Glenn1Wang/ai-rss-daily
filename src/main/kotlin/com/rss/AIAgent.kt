@@ -61,10 +61,10 @@ object AIAgent {
             挑选出最具价值的文章（最多 10 篇，不足 10 篇则全部返回）。
 
             你必须严格返回一个 JSON 数组，数组中每个元素包含以下字段：
-            - title: 文章标题
-            - summary: 50 字以内的中文总结
+            - title: 文章标题（如果是英文标题，翻译为中文）
+            - summary: 50 字以内的中文总结（无论原文是什么语言，都必须用中文总结）
             - originalUrl: 原文链接
-            - recommendationReason: 推荐理由（一句话）
+            - recommendationReason: 推荐理由（一句话，用中文）
 
             只返回 JSON 数组，不要包含任何其他文字、markdown 标记或代码块标记。
         """.trimIndent()
