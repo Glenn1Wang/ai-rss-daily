@@ -32,6 +32,7 @@ object AIAgent {
             .modelName(modelName)
             .temperature(0.3)
             .maxTokens(4096)
+            .timeout(java.time.Duration.ofMinutes(3))
             .build()
     }
 
