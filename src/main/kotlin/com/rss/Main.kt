@@ -25,10 +25,13 @@ fun main() {
         println("AI 未筛选出文章，退出")
         return
     }
+
+    // 3.5 用原始数据回填发布日期
+    val enriched = AISelectedArticle.enrichFromRaw(selected, articles)
     println()
 
     // 4. 生成 RSS 输出
-    FeedGenerator.generate(selected)
+    FeedGenerator.generate(enriched)
     println()
     println("=== 完成 ===")
 }

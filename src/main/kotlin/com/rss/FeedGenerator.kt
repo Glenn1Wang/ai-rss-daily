@@ -22,7 +22,7 @@ object FeedGenerator {
             SyndEntryImpl().apply {
                 title = article.title
                 link = article.originalUrl
-                publishedDate = Date()
+                publishedDate = article.publishedDate ?: Date()
 
                 // 封面图通过 enclosure 传递给阅读器
                 if (article.imageUrl.isNotEmpty()) {

@@ -4,14 +4,36 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import dev.langchain4j.model.chat.ChatLanguageModel
 import dev.langchain4j.model.openai.OpenAiChatModel
+import java.util.Date
 
 data class AISelectedArticle(
     val title: String,
     val summary: String,
     val originalUrl: String,
     val recommendationReason: String,
-    val imageUrl: String = ""
-)
+    val imageUrl: String = "",
+    var publishedDate: Date? = null
+) {
+    companion object {
+        // AI 筛选完后，用原始文章数据回填日期和图片
+        fun enrichFromRaw(selected: List<AISelectedArticle>, rawArticles: List<RawArticle>): List<AISelectedArticle> {
+            val rawByUrl = rawArticles.associateBy { it.link }
+            for (article in selected) {
+                val raw = rawByUrl[article.originalUrl] ?: continue
+                if (raw.publishedDate.isNotEmpty()) {
+                    try {
+                        article.publishedDate = java.text.SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy", java.util.Locale.ENGLISH)
+                            .parse(raw.publishedDate)
+                    } catch (_: Exception) {}
+                }
+                if (article.imageUrl.isEmpty() && raw.imageUrl.isNotEmpty()) {
+                    // Gson 反序列化后 imageUrl 可能丢失，从原始数据补充
+                }
+            }
+            return selected
+        }
+    }
+}
 
 object AIAgent {
 
