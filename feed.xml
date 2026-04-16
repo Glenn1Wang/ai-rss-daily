@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>每日技术精选</title>
+    <link>https://github.com</link>
+    <description>由 AI 每日自动筛选的技术文章精选</description>
+    <pubDate>Thu, 16 Apr 2026 23:54:39 GMT</pubDate>
+    <dc:date>2026-04-16T23:54:39Z</dc:date>
+    <item>
+      <title>&#x1f4cb; 今日技术动态概览 (2026-04-16)</title>
+      <link>https://github.com</link>
+      <description>&lt;p&gt;今日技术动态聚焦于AI智能体与开发效率的深度融合。一方面，AI代理正加速渗透开发流程，从Android构建到自动化编码，显著提升效率；另一方面，智能体能力持续增强，从代码生成扩展到对物理设备（如机器狗）的自主控制。同时，系统架构深度优化与跨平台工具创新，共同推动着性能与体验的边界。&lt;/p&gt;</description>
+      <category>简报</category>
+      <pubDate>Thu, 16 Apr 2026 23:54:39 GMT</pubDate>
+      <guid>https://github.com</guid>
+      <dc:date>2026-04-16T23:54:39Z</dc:date>
+    </item>
+    <item>
+      <title>★★★★★ [Android] Android CLI：使用任何代理将 Android 应用构建速度提升 3 倍</title>
+      <link>https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html</link>
+      <description>&lt;img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSxFmgZy6aUj2hWhz_Q7GYVfVjlVJ5kTKte7b_GfNnV6Bde-1UDSBiOmDuq7sEPHJX4SULxETyP5DYjBh9NKGJ8TDfJD4kvUJYHPpVGE44k0Tw9EkH3-jCTChnTLvc-TeGH1PWPhdpXRtn6ly0iAkQ5dIS9wHXsWAVuv0wPzumJ41YhYqdcia5DmnOOWs/s72-c/hours-CLI_Dark-Blogger@2x.png" alt="Android CLI：使用任何代理将 Android 应用构建速度提升 3 倍" /&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;推荐指数：&lt;/strong&gt;★★★★★&lt;/p&gt;&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;Android&lt;/p&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Google 推出新的 Android CLI 套件，让开发者能使用任何 AI 代理（如 Gemini、Claude Code）来加速 Android 应用开发。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;结合 AI 代理提升 Android 开发效率的前沿工具，与用户偏好高度匹配。&lt;/p&gt;&lt;p&gt;&lt;a href="https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSxFmgZy6aUj2hWhz_Q7GYVfVjlVJ5kTKte7b_GfNnV6Bde-1UDSBiOmDuq7sEPHJX4SULxETyP5DYjBh9NKGJ8TDfJD4kvUJYHPpVGE44k0Tw9EkH3-jCTChnTLvc-TeGH1PWPhdpXRtn6ly0iAkQ5dIS9wHXsWAVuv0wPzumJ41YhYqdcia5DmnOOWs/s72-c/hours-CLI_Dark-Blogger@2x.png" length="0" type="image/jpeg" />
+      <category>Android</category>
+      <pubDate>Thu, 16 Apr 2026 17:00:00 GMT</pubDate>
+      <guid>https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html</guid>
+      <dc:date>2026-04-16T17:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>★★★★★ [AI] lsdefine/GenericAgent</title>
+      <link>https://github.com/lsdefine/GenericAgent</link>
+      <description>&lt;img src="https://opengraph.githubassets.com/dba177437cdc28646f1749551a349ec40ac69ebbfde5dd6d384399361aaf97f9/lsdefine/GenericAgent" alt="lsdefine/GenericAgent" /&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;推荐指数：&lt;/strong&gt;★★★★★&lt;/p&gt;&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;GenericAgent 是一个极简、自进化的自主智能体框架，仅需约 3K 行代码，即可让 LLM 获得对本地计算机的系统级控制。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;开源的自进化 AI 智能体框架，设计理念先进，对大模型工程化落地和智能体开发有很高的技术参考价值。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/lsdefine/GenericAgent"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <enclosure url="https://opengraph.githubassets.com/dba177437cdc28646f1749551a349ec40ac69ebbfde5dd6d384399361aaf97f9/lsdefine/GenericAgent" length="0" type="image/jpeg" />
+      <category>AI</category>
+      <pubDate>Thu, 16 Apr 2026 23:54:39 GMT</pubDate>
+      <guid>https://github.com/lsdefine/GenericAgent</guid>
+      <dc:date>2026-04-16T23:54:39Z</dc:date>
+    </item>
+    <item>
+      <title>★★★★★ [架构] 压榨系统性能：视频审核中台从 280ms 降低至 90ms 的架构演进与深度优化</title>
+      <link>https://www.infoq.cn/article/VPXF1eq1iuW7HlZSMX0y?utm_source=rss&amp;utm_medium=article</link>
+      <description>&lt;p&gt;&lt;strong&gt;推荐指数：&lt;/strong&gt;★★★★★&lt;/p&gt;&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;架构&lt;/p&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;文章分享了视频审核中台通过架构演进和深度优化，将处理延迟从280ms大幅降低至90ms的实践经验。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;深度性能优化案例，对移动端和后端开发者的架构设计与调优有很高的参考价值。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.infoq.cn/article/VPXF1eq1iuW7HlZSMX0y?utm_source=rss&amp;utm_medium=article"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <category>架构</category>
+      <pubDate>Thu, 16 Apr 2026 16:51:44 GMT</pubDate>
+      <guid>https://www.infoq.cn/article/VPXF1eq1iuW7HlZSMX0y?utm_source=rss&amp;utm_medium=article</guid>
+      <dc:date>2026-04-16T16:51:44Z</dc:date>
+    </item>
+    <item>
+      <title>★★★★★ [AI] 写了三个月 Agent Harness，我终于敢让 Claude Code 全自动写代码了</title>
+      <link>https://www.v2ex.com/t/1205752#reply40</link>
+      <description>&lt;img src="https://chorus-ai.dev/images/idea-tracker.gif" alt="写了三个月 Agent Harness，我终于敢让 Claude Code 全自动写代码了" /&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;推荐指数：&lt;/strong&gt;★★★★★&lt;/p&gt;&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;作者分享了开发开源项目Chorus，为AI Agent构建任务管理流程，实现自动化编码的经验。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;深度分享AI Agent工程化落地的实践、挑战与解决方案，技术含量高。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.v2ex.com/t/1205752#reply40"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <enclosure url="https://chorus-ai.dev/images/idea-tracker.gif" length="0" type="image/jpeg" />
+      <category>AI</category>
+      <pubDate>Tue, 14 Apr 2026 05:37:22 GMT</pubDate>
+      <guid>https://www.v2ex.com/t/1205752#reply40</guid>
+      <dc:date>2026-04-14T05:37:22Z</dc:date>
+    </item>
+    <item>
+      <title>★★★★☆ [Kotlin] 为 Koog 引入 Spring AI 集成：为您的智能体提供更智能的编排</title>
+      <link>https://blog.jetbrains.com/ai/2026/04/introducing-koog-integration-for-spring-ai-smarter-orchestration-for-your-agents/</link>
+      <description>&lt;p&gt;&lt;strong&gt;推荐指数：&lt;/strong&gt;★★★★☆&lt;/p&gt;&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;Kotlin&lt;/p&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;JetBrains 介绍了 Koog 与 Spring AI 的集成，为构建在 Spring AI 之上的智能体提供更高层的编排能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;结合 Kotlin 生态与 Spring AI 的智能体编排方案，对大模型工程化落地有参考价值。&lt;/p&gt;&lt;p&gt;&lt;a href="https://blog.jetbrains.com/ai/2026/04/introducing-koog-integration-for-spring-ai-smarter-orchestration-for-your-agents/"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Kotlin</category>
+      <pubDate>Thu, 16 Apr 2026 14:01:57 GMT</pubDate>
+      <guid>https://blog.jetbrains.com/ai/2026/04/introducing-koog-integration-for-spring-ai-smarter-orchestration-for-your-agents/</guid>
+      <dc:date>2026-04-16T14:01:57Z</dc:date>
+    </item>
+    <item>
+      <title>★★★★☆ [开源] llm-anthropic 0.25</title>
+      <link>https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything</link>
+      <description>&lt;p&gt;&lt;strong&gt;推荐指数：&lt;/strong&gt;★★★★☆&lt;/p&gt;&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;开源&lt;/p&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;llm-anthropic 插件发布 0.25 版本，新增对 Claude Opus 4.7 模型的支持，并引入了新的思维显示和自适应选项。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;开源 AI 工具链的重要更新，方便开发者集成最新的 Claude 模型能力。&lt;/p&gt;&lt;p&gt;&lt;a href="https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <category>开源</category>
+      <pubDate>Thu, 16 Apr 2026 20:37:12 GMT</pubDate>
+      <guid>https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything</guid>
+      <dc:date>2026-04-16T20:37:12Z</dc:date>
+    </item>
+    <item>
+      <title>★★★★☆ [开源] amir1376/ab-download-manager</title>
+      <link>https://github.com/amir1376/ab-download-manager</link>
+      <description>&lt;img src="https://repository-images.githubusercontent.com/825187044/e982f7e5-20e1-4842-a2f3-6281ef8b9f71" alt="amir1376/ab-download-manager" /&gt;&lt;br/&gt;&lt;p&gt;&lt;strong&gt;推荐指数：&lt;/strong&gt;★★★★☆&lt;/p&gt;&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;开源&lt;/p&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;AB 下载管理器是一款免费开源的跨平台桌面应用，支持 Android、Windows、Linux、Mac，具有现代 UI 和浏览器扩展。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;使用 Kotlin 开发的开源跨平台项目，对学习 Kotlin Multiplatform 和现代 UI 开发有实用价值。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/amir1376/ab-download-manager"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <enclosure url="https://repository-images.githubusercontent.com/825187044/e982f7e5-20e1-4842-a2f3-6281ef8b9f71" length="0" type="image/jpeg" />
+      <category>开源</category>
+      <pubDate>Thu, 16 Apr 2026 23:54:39 GMT</pubDate>
+      <guid>https://github.com/amir1376/ab-download-manager</guid>
+      <dc:date>2026-04-16T23:54:39Z</dc:date>
+    </item>
+    <item>
+      <title>★★★★☆ [开源] 我用 AI 写代码，但终端管理反而成了累赘——于是我做了 codux</title>
+      <link>https://www.v2ex.com/t/1206444#reply0</link>
+      <description>&lt;p&gt;&lt;strong&gt;推荐指数：&lt;/strong&gt;★★★★☆&lt;/p&gt;&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;开源&lt;/p&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;作者开发了Codux，一个专为管理多个AI CLI开发项目的原生macOS终端工作区。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;针对AI编程新工作流的痛点，开发了开源工具，具有创新性和实用价值。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.v2ex.com/t/1206444#reply0"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <category>开源</category>
+      <pubDate>Thu, 16 Apr 2026 13:44:10 GMT</pubDate>
+      <guid>https://www.v2ex.com/t/1206444#reply0</guid>
+      <dc:date>2026-04-16T13:44:10Z</dc:date>
+    </item>
+    <item>
+      <title>★★★★☆ [AI] 波士顿动力的机器狗集成了 Google 的 Gemini 模型</title>
+      <link>https://www.solidot.org/story?sid=84060</link>
+      <description>&lt;p&gt;&lt;strong&gt;推荐指数：&lt;/strong&gt;★★★★☆&lt;/p&gt;&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;波士顿动力将Google的Gemini模型集成到机器狗Spot中，增强了其在工业检测中的自主推理能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;展示了大模型在机器人/具身智能领域的工程化落地，具有前沿性和实用价值。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.solidot.org/story?sid=84060"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <category>AI</category>
+      <pubDate>Thu, 16 Apr 2026 07:34:04 GMT</pubDate>
+      <guid>https://www.solidot.org/story?sid=84060</guid>
+      <dc:date>2026-04-16T07:34:04Z</dc:date>
+    </item>
+    <item>
+      <title>★★★★☆ [Android] 俄罗斯流行应用被发现会检测是否安装 VPN</title>
+      <link>https://www.solidot.org/story?sid=84054</link>
+      <description>&lt;p&gt;&lt;strong&gt;推荐指数：&lt;/strong&gt;★★★★☆&lt;/p&gt;&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;Android&lt;/p&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;研究发现俄罗斯多款流行Android应用会检测并上报用户是否安装了VPN。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;涉及Android应用隐私与安全实践，对移动端开发者有警示作用。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.solidot.org/story?sid=84054"&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Android</category>
+      <pubDate>Wed, 15 Apr 2026 13:43:09 GMT</pubDate>
+      <guid>https://www.solidot.org/story?sid=84054</guid>
+      <dc:date>2026-04-15T13:43:09Z</dc:date>
+    </item>
+  </channel>
+</rss>
